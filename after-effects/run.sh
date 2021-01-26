@@ -23,5 +23,3 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsM
 sudo unzip JetBrainsMono.zip -d /usr/share/fonts && fc-cache -f -v || echo "########## ERROR JetBrainsMono ###########"
 # In VSCode you may restart the computer, then set the font to 'JetBrainsMono NF', 'Courier New', monospace
 # Also set "editor.fontLigatures": true
-
-

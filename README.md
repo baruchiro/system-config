@@ -14,3 +14,8 @@ Configure the `ubuntu-post-install` by editing the `./after-effects/config.yml`.
 
 Configure the rest installs by the documentation inside the `./after-effects/run.sh`.
 
+# TODO
+
+ - [] Create scripts for Windows and/or PowerShell
+ - [] Register `./configs/git-aliases`
+ - [] Install [`pyradio`](https://github.com/coderholic/pyradio)

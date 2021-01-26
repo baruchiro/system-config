@@ -1,0 +1,20 @@
+git config alias.pl pull
+git config alias.ps push
+git config alias.md 'merge dev'
+git config alias.mm 'merge master'
+git config alias.c 'commit -m'
+git config alias.ca 'commit -am'
+git config alias.s switch
+git config alias.sd 'switch dev'
+git config alias.sm 'switch master'
+git config alias.r restore
+git config alias.ra 'restore .'
+git config alias.a add
+git config alias.s status
+git config alias.xdf 'clean -xdf'
+git config alias.fa 'fetch -a'
+
+# From https://stackoverflow.com/questions/1838873/visualizing-branch-topology-in-git/34467298#34467298
+git config alias.graph "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'"
+git config alias.graphh "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'"
+git config alias.graphhh "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'"
